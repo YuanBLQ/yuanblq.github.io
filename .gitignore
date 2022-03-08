@@ -1,0 +1,10 @@
+# hugo
+.hugo_build.lock
+/public
+
+# General
+.DS_Store
+
+# Thumbnails
+._*
+
