@@ -2,25 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://isyuan.space/p/hello-world/</loc>
+    <loc>https://isyuan.de/posts/hello-world/</loc>
     <lastmod>2022-03-07T23:10:40+08:00</lastmod>
   </url><url>
-    <loc>https://isyuan.space/posts/</loc>
+    <loc>https://isyuan.de/posts/</loc>
     <lastmod>2022-03-07T23:10:40+08:00</lastmod>
   </url><url>
-    <loc>https://isyuan.space/</loc>
+    <loc>https://isyuan.de/</loc>
     <lastmod>2022-03-07T23:10:40+08:00</lastmod>
   </url><url>
-    <loc>https://isyuan.space/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <loc>https://isyuan.de/categories/</loc>
   </url><url>
-    <loc>https://isyuan.space/page/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://isyuan.space/categories/</loc>
-  </url><url>
-    <loc>https://isyuan.space/search/</loc>
-  </url><url>
-    <loc>https://isyuan.space/tags/</loc>
+    <loc>https://isyuan.de/tags/</loc>
   </url>
 </urlset>
