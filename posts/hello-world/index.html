@@ -31,6 +31,9 @@
     <link rel="stylesheet" type="text/css" media="screen" href="https://isyuan.de/css/highlight.css" />
 
     
+    <link rel="stylesheet" type="text/css" media="screen" href="https://unpkg.com/vssue/dist/vssue.min.css">
+
+    
     
 </head>
 
@@ -91,23 +94,26 @@
                 </div>
                 
                 
-                
-<div class="doc_comments">
-    <div class="comments_block_title">发表评论</div>
-    <div id="vcomments"></div>
-</div>
+                <div id="vssue"></div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+<script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
 
-<link rel="stylesheet" href="https://isyuan.de/css/comments.css" />
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script>
+    new Vue({
+        el: '#vssue',
 
-<script type="text/javascript">
-    new Valine({
-        el: '#vcomments',
-        appId: 'KEmTqeNyTet09TwRlodnFxcj-9Nh9j0Va',
-        appKey: 'XsSlV8jJW3bbqzev09J29W1r',
-        placeholder: '雁过留痕...',
-        visitor: 'true',
+        data: {
+        title: 'Vssue Comment',
+
+        options: {
+            owner: 'yuanblq',
+            repo: 'yuanblq.github.io',
+            clientId: 'c07305bd37311e2d33c6',
+            clientSecret: '33ceb93a19d8ab7e9ec0fbfcc828af8e5b4198a4', 
+        },
+        },
+
+        template: `<vssue :title="title" :options="options"></vssue>`,
     })
 </script>
                 
